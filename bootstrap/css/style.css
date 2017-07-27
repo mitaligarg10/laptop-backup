@@ -1,0 +1,123 @@
+		body
+		{
+			 font-family: 'Questrial', sans-serif;
+		}
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+     #main{
+     	height: 115% !important;
+     }
+     #side{
+     	height: 115% !important;
+     }
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+    #main{
+     	height: 145% !important;
+     }
+     #side{
+     	height: 145% !important;
+     }
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+    #main{
+     	height: 219% !important;
+     }
+     #side{
+     	height: 195% !important;
+     }
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+         #main{
+     	height: 395% !important;
+     }
+     #side{
+     	height: 395% !important;
+     }
+    }
+		#side
+		{
+			background-color: rgb(56, 51, 51);
+			color: white;
+			height: 1000px;
+		}
+		#side img
+		{
+			height: 200px;
+			width: 200px;
+			margin-top: 30px;
+			margin-left: 30%;
+
+		}
+		#side h3
+		{
+			letter-spacing: 10px;
+			color: white;
+			text-align: center;
+		}
+		hr
+		{
+			margin:20px auto;
+			width: 400px;
+		}
+		#side p
+		{
+			text-align: center;
+		    font-size: 18px;
+		}
+		#side h4 
+		{
+			text-align: center;
+			font-size: 18px;
+		}
+		#side h6
+		{
+			text-align: center;
+		    font-size: 18px;
+		}
+
+	  #side	li 
+	    {
+			padding-right: 0px;
+			display: inline;
+			margin-right: -145px;
+			margin-left: 150px;
+
+		}
+		#main
+		{
+			background-color: lightgrey;
+			height: 1000px;
+			
+		}
+		
+		#main h3
+		{
+			letter-spacing: 5px;
+	         font-size: 28px;
+		}
+		#main p
+		{
+			font-size: 18px;
+		}
+		.mainheading
+		{
+			background-color: grey;
+			text-align: center;
+			font-size: 38px;
+			height: 80px;
+			padding-top: 5px;
+	        margin-left: -15px;
+	        width: 100%;
+	        color: white;
+			}
